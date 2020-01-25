@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:contextClickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:id="@+id/container_department"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="@dimen/cardview_default_elevation"
+    tools:targetApi="m">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/position_department"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/name_department"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:text="Doanh trại"
+            android:textAllCaps="true"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/code_department"
+            android:layout_gravity="end|top"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginEnd="@dimen/cardview_compat_inset_shadow"
+            android:layout_width="wrap_content"
+            android:text="S522A"
+            android:textAllCaps="true"
+            android:textAppearance="?attr/textAppearanceListItemSecondary"
+            android:textColor="#634444" />
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

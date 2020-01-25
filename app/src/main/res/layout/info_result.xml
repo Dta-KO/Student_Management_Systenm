@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/diem_average"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:text="điêmt tring bình"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textColor="#634444" />
+
+    <TextView
+        android:id="@+id/diemLan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:text="diem lan 1"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textColor="#634444" />
+
+    <TextView
+        android:id="@+id/diemLan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:text="diem lan 2"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textColor="#634444" />
+
+    <TextView
+        android:id="@+id/diemLan3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:text="diem cuoi cung"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textColor="#634444" />
+    <TextView
+        android:id="@+id/hanh_kiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:text="hạnh kiểm"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textColor="#634444" />
+    <TextView
+        android:id="@+id/ghi_chu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="start"
+        android:text="ghi chu"
+        android:maxLines="3"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textColor="#634444" />
+
+    <TextView
+        android:id="@+id/xep_loai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="xep loai"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:textColor="#634444" />
+
+
+</LinearLayout>

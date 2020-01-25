@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code Teacher:" />
+
+                <EditText
+                    android:id="@+id/codeTeacher"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name:" />
+
+                <EditText
+                    android:id="@+id/teacherName"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Birthday:" />
+
+                <EditText
+                    android:id="@+id/birthdayTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="click to choose date"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:inputType="text"
+                    android:onClick="chooseBirthdayTeacher" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Sex" />
+
+                <CheckBox
+                    android:id="@+id/sexCheckboxTeacher"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Male" />
+            </LinearLayout>
+        </TableRow>
+
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email:" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:inputType="textEmailAddress" />
+            </LinearLayout>
+        </TableRow>
+
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tel:" />
+
+                <EditText
+                    android:id="@+id/tel"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Type:" />
+
+                <EditText
+                    android:id="@+id/typeTeacher"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow android:layout_weight="1">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:background="@drawable/background_button"
+                    android:text="RESET"
+                    android:id="@+id/resetTeacher"/>
+
+                <Button
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="UPDATE"
+                    android:background="@drawable/background_button"
+
+                    android:id="@+id/updateTeacher"/>
+
+            </TableRow>
+
+            <TableRow android:layout_weight="1">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="INSERT"
+                    android:background="@drawable/background_button"
+                    android:id="@+id/insertTeacher"/>
+
+                <Button
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="REMOVE"
+                    android:background="@drawable/background_button"
+                    android:id="@+id/removeTeacher"/>
+
+            </TableRow>
+            <TableRow android:layout_weight="1"/>
+
+
+        </TableLayout>
+    </TableLayout>
+</android.support.design.widget.CoordinatorLayout>
+

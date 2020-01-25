@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Information</string>
+    <string name="open">mở</string>
+    <string name="close">đóng</string>
+    <string name="welcome">CHÀO MỪNG ĐẾN CỔNG THÔNG TIN ĐÀO TẠO</string>
+    <string name="help">Hotline 190010 chưa có (^.^)</string>
+    <string name="about">Information Application \nVersion 1.0</string>
+    <string name="login">Đăng nhập</string>
+    <string name="students">Sinh viên</string>
+    <string name="teachers">Giáo viên</string>
+    <string name="result">Điểm</string>
+    <string name="department">Khoa</string>
+    <string name="Class">Lớp học</string>
+    <string name="subject">Môn học</string>
+    <string name="remember_pass">Nhớ mật khẩu</string>
+    <string name="no_internet">Kiểm tra kết nối mạng!</string>
+    <string name="wait">Đợi xíu xong liền à...</string>
+    <string name="login_fail">Lỗi gì đó rùi ấy, méo đăng nhập được...</string>
+    <string name="login_success">Đăng nhập thành công cmnr nhá :))))</string>
+    <string name="logout_success">Xuất xong rồi nhé</string>
+    <string name="enter_data">Hổng có được để trống á</string>
+    <string name="logout_fail">Xuất cũng méo xong...haizzz!!!</string>
+    <string name="insert_success">Thêm đối tượng thành cmn công rùi nhé</string>
+    <string name="insert_fail">Thất bại cmnr! \nLí do là gì thì em cũng hông có biết á...</string>
+    <string name="remove_success">Đã xóa</string>
+    <string name="remove_fail">Lỗi cmnr!</string>
+    <string name="success">OK rùi nhé</string>
+<string name="header">Quỳnh buffe hân hạnh tài trợ chương trình này</string>
+
+</resources>

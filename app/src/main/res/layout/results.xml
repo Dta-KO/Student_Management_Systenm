@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code Subject:" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/codeSubjectResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textAutoComplete"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code Student:" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/codeStudentResult"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:inputType="textAutoComplete"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Average Point:" />
+
+                <EditText
+                    android:id="@+id/averagePoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="First Point:" />
+
+                <EditText
+                    android:id="@+id/firstPoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Second Point:" />
+
+                <EditText
+                    android:id="@+id/secondPoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Final Point:" />
+
+                <EditText
+                    android:id="@+id/finalPoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Conduct:" />
+
+                <EditText
+                    android:id="@+id/conduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Note:" />
+
+                <EditText
+                    android:id="@+id/note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+        </TableRow>
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow android:layout_weight="1">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="RESET"
+                    android:background="@drawable/background_button"
+                    android:id="@+id/resetResult"/>
+
+                <Button
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="UPDATE"
+                    android:background="@drawable/background_button"
+                    android:id="@+id/updateResult"/>
+
+            </TableRow>
+
+            <TableRow android:layout_weight="1">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="INSERT"
+                    android:background="@drawable/background_button"
+                    android:id="@+id/insertResult"/>
+
+                <Button
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="REMOVE"
+                    android:background="@drawable/background_button"
+                    android:id="@+id/removeResult"/>
+
+            </TableRow>
+            <TableRow android:layout_weight="1"/>
+
+
+        </TableLayout>
+    </TableLayout>
+</android.support.design.widget.CoordinatorLayout>
+

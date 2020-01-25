@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_subject"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code Subject:" />
+
+                <EditText
+                    android:id="@+id/codeSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Code Department:" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/codeDepartmentSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:inputType="textAutoComplete"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Code Teacher:" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/codeTeacherSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:inputType="textAutoComplete"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </TableRow>
+
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Subject Name:" />
+
+                <EditText
+                    android:id="@+id/subjectName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:inputType="text"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Number Units:" />
+
+                <EditText
+                    android:id="@+id/numberUnits"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:inputType="numberSigned"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </TableRow>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/resetSubject"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background_button"
+                    android:padding="20dp"
+                    android:text="RESET" />
+
+                <Button
+                    android:id="@+id/updateSubject"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background_button"
+                    android:padding="20dp"
+
+                    android:text="UPDATE" />
+
+            </TableRow>
+
+            <TableRow android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/insertSubject"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background_button"
+                    android:padding="20dp"
+                    android:text="INSERT" />
+
+                <Button
+                    android:id="@+id/removeSubject"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background_button"
+                    android:padding="20dp"
+                    android:text="REMOVE" />
+
+            </TableRow>
+
+            <TableRow android:layout_weight="1" />
+
+
+        </TableLayout>
+    </TableLayout>
+</android.support.design.widget.CoordinatorLayout>
+

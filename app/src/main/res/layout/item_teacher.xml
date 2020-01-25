@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_teacher"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="5dp"
+    android:contextClickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="@dimen/cardview_default_elevation"
+    tools:targetApi="m">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/position_teacher"
+                android:text="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/name_teacher"
+                android:text="Nguyễn Đức Anh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAllCaps="true"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/code_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DT"
+                android:layout_gravity="end|top"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="@dimen/cardview_compat_inset_shadow"
+                android:textAllCaps="true"
+                android:textAppearance="?attr/textAppearanceListItemSecondary"
+                android:textColor="#634444" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sex_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="nam"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:textAppearance="?attr/textAppearanceListItemSecondary"
+                android:textColor="#634444" />
+
+            <TextView
+                android:id="@+id/birthday_teacher"
+                android:layout_width="wrap_content"
+                android:text="14/03/1997"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:textAllCaps="false"
+                android:textAppearance="?attr/textAppearanceListItemSecondary"
+                android:textColor="#634444" />
+
+            <TextView
+                android:id="@+id/email_teacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="nkkprodepzai@gmail.com"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="@dimen/cardview_compat_inset_shadow"
+                android:gravity="center_horizontal"
+                android:textAppearance="?attr/textAppearanceListItemSecondary"
+                android:textColor="#634444" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tel_teacher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="10dp"
+                android:text="0335722352"
+                android:layout_marginEnd="@dimen/cardview_compat_inset_shadow"
+                android:gravity="center_horizontal"
+                android:textAppearance="?attr/textAppearanceListItemSecondary"
+                android:textColor="#634444" />
+            <TextView
+                android:id="@+id/type_teacher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:layout_marginEnd="@dimen/cardview_compat_inset_shadow"
+                android:text="giỏi"
+                android:gravity="center_horizontal"
+                android:textAppearance="?attr/textAppearanceListItemSecondary"
+                android:textColor="#634444" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
